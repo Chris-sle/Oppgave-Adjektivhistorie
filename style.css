@@ -1,0 +1,43 @@
+body {
+    display: grid;
+    place-items: center;
+    height: 95dvh;
+    background-color: #2f2f2f;
+}
+
+.Container {
+    display: grid;
+    place-items: center;
+    gap: 1em;
+    border: 0.5em solid indigo;
+    border-radius: 5%;
+    width: 33em;
+    padding: 1em;
+    background-color: black;
+    color: violet;
+}
+
+#Story {
+    height: 5em;
+    width: 30em;
+
+}
+
+.btmContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5em;
+}
+
+button {
+    border: 0.7em inset indigo;
+}
+
+button:hover {
+    cursor: pointer;
+    border: 0.7em outset indigo;
+}
+
+.Reset {
+    margin-top: 5px;
+}
